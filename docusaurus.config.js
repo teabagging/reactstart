@@ -22,7 +22,7 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -87,7 +87,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          { href: 'https://e.543x.com', label: 'Help', position: 'right' },
+          { href: 'https://www.543x.com', label: 'Help', position: 'right' },
         ],
       },
       footer: {
@@ -98,7 +98,7 @@ const config = {
             items: [
               {
                 label: 'Get Started',
-                to: 'docs/getting-started',
+                href: 'https://a.543x.com',
               },
               {
                 label: 'Learn React',
@@ -184,7 +184,6 @@ const config = {
         },
         copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
       },
-      onBrokenLinks: 'warn',
 
       prism: {
         theme: prismThemes.github,
