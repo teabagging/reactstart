@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/543x/create-reacts-main/edit/main/docs',
+            'https://github.com/teabagging/reactstart/edit/main/docs',
         },
         blog: {
           showReadingTime: true,
@@ -54,7 +54,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/teabagging/reactstart/edit/main/blog',
         },
         theme: {
           customCss: './src/css/custom.css',
